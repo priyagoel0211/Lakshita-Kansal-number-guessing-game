@@ -1,0 +1,29 @@
+secret_number =49
+attempts = 0
+guess = int
+if guess >10:
+  print ("ice cold!")
+elif guess >20 and <10:
+  print("cold!")
+elif guess >35 and <20:
+  print("warm!")
+elif guess >45 and <35:
+  print("hot!")
+elif guess >48 and <45:
+  print("ur so close!")
+
+
+
+while attepts < 5:
+  print (int(input(("Enter your guess:"))))
+attempts == attempts +1
+if guess == secret_number:
+  print("thats correct!")
+else:
+  print("please try again!")
+
+if attempts > 5:
+  print("you have run out of attempts, the secret number was, "secret_number" ")
+
+
+ 
